@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/colors-project/static/css/main.2cce8147.chunk.css",
+    "main.js": "/colors-project/static/js/main.d8aa9806.chunk.js",
+    "main.js.map": "/colors-project/static/js/main.d8aa9806.chunk.js.map",
+    "runtime~main.js": "/colors-project/static/js/runtime~main.220ca8bd.js",
+    "runtime~main.js.map": "/colors-project/static/js/runtime~main.220ca8bd.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/colors-project/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/colors-project/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/colors-project/index.html",
+    "precache-manifest.c87f60ce16574f2f31257ff9c975665b.js": "/colors-project/precache-manifest.c87f60ce16574f2f31257ff9c975665b.js",
+    "service-worker.js": "/colors-project/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/colors-project/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/colors-project/static/media/logo.5d5d9eef.svg"
+  }
+}
