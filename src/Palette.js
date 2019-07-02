@@ -1,9 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import ColorBox from "./ColorBox";
+import "./Palette.css";
 class Palette extends Component {
-    state = {  }
-    render() { 
-        return ( <h1>aditya</h1> );
-    }
+  state = {};
+  render() {
+    console.log(this.props);
+    const colorBoxes = this.props.colors.map((color) => (
+      <ColorBox background={color.color} name={color.name} />
+    ));
+    return (
+      <div className="Palette">
+        <div className="Palette-colors">{colorBoxes}</div>
+      </div>
+    );
+  }
 }
- 
+
 export default Palette;
