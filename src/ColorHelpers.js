@@ -6,7 +6,7 @@ function generatePalette(starterPalette) {
     name: starterPalette.paletteName,
     id: starterPalette.id,
     emoji: starterPalette.emoji,
-    colors: {}
+    colors: []
   };
   for (let level of levels) {
     newPalette.colors[level] = [];
@@ -26,7 +26,6 @@ function generatePalette(starterPalette) {
       });
     }
   }
-  console.log(newPalette);
   return newPalette;
 }
 function getRange(hexColor) {
