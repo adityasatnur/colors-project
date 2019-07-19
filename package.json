@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "http://adityasatnur.github.io/colors-project",
   "dependencies": {
+    "@material-ui/core": "^4.2.1",
+    "@material-ui/icons": "^4.2.1",
     "chroma-js": "^2.0.4",
     "rc-slider": "^8.6.13",
     "react": "^16.8.6",
