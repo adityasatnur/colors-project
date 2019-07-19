@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router";
 import logo from "./logo.svg";
 import "./App.css";
 import Palette from "./Palette";
+import PaletteList from "./PaletteList";
 import seedColors from "./seedColors";
 import { generatePalette } from "./ColorHelpers";
 
@@ -17,7 +18,11 @@ class App extends Component {
     debugger;
     return (
       <Switch>
-        <Route exact path="/" render={() => <h2>yo</h2>} />
+        <Route
+          exact
+          path="/"
+          render={() => <PaletteList palette={seedColors} />}
+        />
         <Route
           exact
           path="/palette/:id"
