@@ -5,7 +5,7 @@
      display: inline-block;
      position: relative;
      cursor: pointer;
-     margin-bottom: -3.5px;
+     margin-bottom: -4px;
 }
  .copy-button{
      width: 100px;
@@ -59,13 +59,12 @@
     width: 100%;
     height: 100%;
     transform: scale(0.1);
-
     transition: 0.6s ease-in-out;
 }
 .copy-overlay.show{
     opacity:1;
     overflow: hidden;
-
+    
     transform: scale(50);
     z-index: 10;
     position: absolute;
